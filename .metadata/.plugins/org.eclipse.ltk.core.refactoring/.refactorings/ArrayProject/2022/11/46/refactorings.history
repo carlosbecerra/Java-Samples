@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;ArrayProject.java&apos; to &apos;Week 11 and 12 Assignment/src/week11and12Assignment&apos;&#x0D;&#x0A;- Original project: &apos;ArrayProject&apos;&#x0D;&#x0A;- Destination element: &apos;Week 11 and 12 Assignment/src/week11and12Assignment&apos;&#x0D;&#x0A;- Original element: &apos;arrayProject.ArrayProject.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=Week 11 and 12 Assignment/src&lt;week11and12Assignment" element1="/src&lt;arrayProject{ArrayProject.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1667778271201" units="1" version="1.0"/>
+</session>

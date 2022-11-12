@@ -1,0 +1,11 @@
+package week11and12Assignment;
+
+public class TestStudentGrades {
+
+	public static void main(String[] args) {
+		
+		StudentGrades student1 = new StudentGrades();
+
+	}
+
+}

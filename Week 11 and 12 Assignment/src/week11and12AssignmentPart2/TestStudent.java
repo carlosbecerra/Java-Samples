@@ -1,0 +1,35 @@
+package week11and12AssignmentPart2;
+
+public class TestStudent {
+
+	public static void main(String[] args) {
+		
+		Student[] stuObj1 = new Student[6];
+		
+		stuObj1[0] = new Student("A123", "Carlos");
+		stuObj1[1] = new Student("A125", "John");
+		
+		stuObj1[2] = new GradStudent("B126", "Kelly", 1200 );
+		stuObj1[3] = new GradStudent("B128", "David", 1280 );
+		
+		stuObj1[4] = new UndergradStudent("C126", "Keith", 1245 , 1100);
+		stuObj1[5] = new UndergradStudent("C128", "Brad", 1285 , 1400);
+		
+		
+		System.out.print("Student ID: " + ((Student)stuObj1[1]).getStudentID());
+		System.out.println(" | Student Name: " + ((Student)stuObj1[1]).getStudentName());
+		
+		System.out.print("Graduate student ID: " + ((GradStudent)stuObj1[3]).getStudentID());
+		System.out.print(" | Graduate student Name: " + ((GradStudent)stuObj1[3]).getStudentName());
+		System.out.println(" | Graduate student GRE Score: " + ((GradStudent)stuObj1[3]).getGREScore());
+		
+		System.out.print("Undergraduate student ID: " + ((UndergradStudent)stuObj1[5]).getStudentID());
+		System.out.print(" | Undergraduate student name: " + ((UndergradStudent)stuObj1[5]).getStudentName());
+		System.out.print(" | Undergraduate student SAT score: " + ((UndergradStudent)stuObj1[5]).getSATScore());
+		System.out.println(" | Undergraduate student ACT score: " + ((UndergradStudent)stuObj1[5]).getACTScore());
+		
+		
+		
+	}
+
+}

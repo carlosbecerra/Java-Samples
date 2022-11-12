@@ -1,0 +1,44 @@
+package week11and12Assignment;
+import java.util.ArrayList;
+
+public class StudentGrades {
+	
+	private int studentID;
+	private double[] grades;
+	
+	public StudentGrades() {
+		this.studentID = 1;
+		grades = new double[5];
+		
+		for(int i = 0 ; i< grades.length; i++ ) {
+			grades[i] = 0; 
+			}
+	}
+	
+	public StudentGrades(int studentID,double[] grades) {
+		this.studentID = studentID;
+		grades = new double[5];
+
+		for(int i = 0 ; i< grades.length; i++ ) {
+			this.grades[i] = grades[i]; 
+			}
+	}
+
+	public int getStudentID() {
+		return studentID;
+	}
+
+	public void setStudentID(int studentID) {
+		this.studentID = studentID;
+	}
+
+	public double[] getGrades() {
+		return grades;
+	}
+
+	public void setGrades(double[] grades) {
+		this.grades = grades;
+	}
+
+	
+}

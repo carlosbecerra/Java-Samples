@@ -1,0 +1,20 @@
+package week11and12Assignment;
+
+public class TestStudentGrades {
+
+	public static void main(String[] args) {
+		
+		StudentGrades stGr1 = new StudentGrades();
+		double[] studentGrades = new double[5];
+		for(int i = 0; i < studentGrades.length; i++) {
+			studentGrades[i] = i+.25;
+		}
+		studentGrades[0] = 1;
+		studentGrades[1] = 1;
+		studentGrades[2] = 1;
+		studentGrades[3] = 1;
+		studentGrades[4] = 1;
+		
+		StudentGrades stGr2 = new StudentGrades(5,studentGrades);
+	}
+}
